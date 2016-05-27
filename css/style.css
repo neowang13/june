@@ -1,0 +1,156 @@
+html{
+	background:url(../img/background.jpg);
+	height:100%;
+	width:100%;
+	background-repeat: no-repeat;
+}
+
+body{
+	background-color:transparent;
+}
+
+.center{
+	text-align:center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.hcenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-logo{
+	height: 60px;
+    width: 40px;
+    float: left
+}
+
+nav{
+	color: white;
+	width:100%;
+	top:0;
+	font-size: 20px;
+	/*margin-bottom: 0px
+	margin-bottom: 0;*/
+}
+
+/*.nav-size div{
+	margin-bottom:0;
+}*/
+
+.nav li{
+	display: inline-block;
+	transition:background-color .3s linear;
+	order: 1px solid white;
+	margin-right:0;
+	padding:10px;
+	color:black;
+	font-size:100px
+	margin-left:80px;
+	float:right;
+	margin-bottom:0;
+}
+
+
+.nav-bar li:hover{
+	background-color:rgba(255,255,255,.5);
+	cursor:pointer;
+}
+
+.home-title{
+	font-size:80px;
+	font-family: 'Montserrat', sans-serif;
+	color:rgba(2, 56, 1, 0.82);
+}
+
+
+h2{color:black;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(7, 152, 38, 0.45);
+}
+
+.poster{
+	text-align:center;
+	
+}
+
+.poster div{
+	width:30%;
+	margin: 0 1%;
+	height: 600px;
+	border: 5px solid white;
+	display:inline-block;
+	position: relative;
+	transition: width .3s linear, margin .3s linear;
+}
+
+.poster div img{
+	width:100%
+}
+
+/*.modal{
+	display:inline-block;
+}*/
+
+
+.poster div h3{
+	position: absolute;
+	top: 70%;
+	font-size:8rem;
+	text-align:center;
+	width:100%;
+	margin:0;
+	transform: translateY(-50%);
+}
+
+.poster div:hover{
+	width:32%;
+	margin:0%;
+}
+
+footer{
+	color: black;
+	background color: black;
+	text-align: center;
+
+}
+footer ul{
+	margin:0 1px 2px 3px;
+	padding:20px 0;
+}
+
+footer ul li{
+	display:inline-block;
+	margin:10px;
+	font-size:30px;
+	font-family: 'Montserrat', sans-serif;
+	color:rgba(2, 56, 1, 0.82);
+	cursor:pointer;
+}
+
+.team-size div{
+	width:20%;
+	height:200px;
+	width:200px;
+	display:inline-block;
+	
+}
+
+h5{
+	color:black;
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:0px;
+}
+
+
+
+
+
+
